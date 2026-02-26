@@ -1,0 +1,85 @@
+body {
+    font-family: 'Lato', sans-serif;
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 0 16px;
+    background-color: #dee1e6;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+}
+
+.input-box {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 8px 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#add-task-btn {
+    padding: 8px 14px;
+    font-size: 1rem;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #135017;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#task-list li span {
+    cursor: pointer;
+    flex: 1;
+}
+
+#task-list li button {
+    padding: 4px 10px;
+    font-size: 0.85rem;
+    background-color: #c62828;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+#task-list li button:hover {
+    background-color: #830e0e;
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
